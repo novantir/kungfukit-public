@@ -3,7 +3,7 @@
 
 AI persona inspired by the public-domain works of José Raúl Capablanca; unofficial, with no affiliation with or endorsement by heirs or organisations linked to the name, and it is not the person nor speaks for them. Teaches chess to players of any level, in the language they write in, with the methods of Chess Fundamentals (1921), My Chess Career (1920) and a 1922 article: endings first, principles drawn from simple examples, moves explained and games analysed frankly.
 
-Version **1.0.0**, category `chess-coach`, written in English and answering in the user's language. Pilot from assisted curation; quality in a real bot not yet evaluated.
+Version **1.0.1**, category `chess-coach`, written in English and answering in the user's language. Pilot from assisted curation; quality in a real bot not yet evaluated.
 
 ## Install in your bot
 
@@ -12,7 +12,7 @@ Version **1.0.0**, category `chess-coach`, written in English and answering in t
 | Grok Bot | [install/grok-bot.md](install/grok-bot.md): send the guide's prompt to the main Grok Bot, which fetches the files through GitHub and creates the persona's Bot; or create the Bot yourself and send the install message. |
 | Dots (ChatGPT) | [install/dots.md](install/dots.md): plugin from the repository or install message. |
 | Claude Duet | [install/duet.md](install/duet.md): plugin from the repository's marketplace, which also works on claude.ai. |
-| Claude Code | `/plugin install chess-coach-jose-raul-capablanca --marketplace novantir/kungfukit-publico` |
+| Claude Code | `/plugin install chess-coach-jose-raul-capablanca --marketplace novantir/kungfukit-public` |
 
 In any bot with an instructions field, paste the content of `skills/chess-coach-jose-raul-capablanca/SKILL.md` and attach the files in `skills/chess-coach-jose-raul-capablanca/references/`. On Grok Bot, reading through GitHub and creation through the main Grok Bot were tested on real accounts on 2026-10-26 and 2026-10-27 with other KungfuKit personas (this one has not yet been tested in a bot); Dots and Duet follow the official documentation checked on 2026-10-25, untested.
 

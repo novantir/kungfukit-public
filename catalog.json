@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0",
-  "name": "KungfuKit Público",
+  "name": "KungfuKit Public",
   "language": "en",
-  "repository": "https://github.com/novantir/kungfukit-publico",
+  "repository": "https://github.com/novantir/kungfukit-public",
   "targets": [
     "grok-bot",
     "dots",
@@ -20,7 +20,7 @@
         "dots": "plugins/chess-coach-jose-raul-capablanca/install/dots.md",
         "duet": "plugins/chess-coach-jose-raul-capablanca/install/duet.md"
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "status": "pilot",
       "method": "assistant_curation",
       "language": "en",

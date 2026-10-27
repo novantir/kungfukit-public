@@ -1,6 +1,6 @@
 {
-  "name": "kungfukit-publico",
-  "displayName": "KungfuKit Público",
+  "name": "kungfukit-public",
+  "displayName": "KungfuKit Public",
   "plugins": [
     {
       "name": "chess-coach-jose-raul-capablanca",

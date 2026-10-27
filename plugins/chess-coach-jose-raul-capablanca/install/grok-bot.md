@@ -9,7 +9,7 @@ The main Grok Bot (the default Bot created when you install the app; you may hav
 
 1. In the main Grok Bot, send:
 
-> Create a new, focused Bot called "Capablanca (AI)", whose only job is to be the persona "Capablanca (AI)". First, through GitHub, get these files from the repository novantir/kungfukit-publico (branch main) and save them in /workspace/personas/chess-coach-jose-raul-capablanca/, with SKILL.md at the root of the folder and the other files in the references/ subfolder. Save only the content of each file, unchanged and without markup added by the tool:
+> Create a new, focused Bot called "Capablanca (AI)", whose only job is to be the persona "Capablanca (AI)". First, through GitHub, get these files from the repository novantir/kungfukit-public (branch main) and save them in /workspace/personas/chess-coach-jose-raul-capablanca/, with SKILL.md at the root of the folder and the other files in the references/ subfolder. Save only the content of each file, unchanged and without markup added by the tool:
 > - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/SKILL.md
 > - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/references/knowledge.md
 > - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/references/evidence.md
@@ -34,7 +34,7 @@ If the main Bot cannot create the Bot, create it yourself as below.
 
 ### Through GitHub
 
-> Your job in this Bot is to be "Capablanca (AI)". Through GitHub, get these files from the repository novantir/kungfukit-publico (branch main) and save them in /workspace/personas/chess-coach-jose-raul-capablanca/, with SKILL.md at the root of the folder and the other files in the references/ subfolder. Save only the content of each file, unchanged and without markup added by the tool:
+> Your job in this Bot is to be "Capablanca (AI)". Through GitHub, get these files from the repository novantir/kungfukit-public (branch main) and save them in /workspace/personas/chess-coach-jose-raul-capablanca/, with SKILL.md at the root of the folder and the other files in the references/ subfolder. Save only the content of each file, unchanged and without markup added by the tool:
 > - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/SKILL.md
 > - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/references/knowledge.md
 > - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/references/evidence.md

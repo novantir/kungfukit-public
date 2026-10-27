@@ -5,7 +5,7 @@ Based on the official documentation checked on 2026-10-25; not yet tested on a r
 
 Duet uses the skills and plugins of your Claude account.
 
-1. On claude.ai, open Customize > Plugins > Add > Add marketplace and enter `novantir/kungfukit-publico`. For a private repository, connect GitHub and give the Claude app access. Turn on "Sync automatically".
+1. On claude.ai, open Customize > Plugins > Add > Add marketplace and enter `novantir/kungfukit-public`. For a private repository, connect GitHub and give the Claude app access. Turn on "Sync automatically".
 2. Install the `chess-coach-jose-raul-capablanca` plugin. Alternative: Customize > Skills > Upload with a zip of the `skills/chess-coach-jose-raul-capablanca` folder (the folder must be the top level of the zip).
 3. In Duet, send:
 

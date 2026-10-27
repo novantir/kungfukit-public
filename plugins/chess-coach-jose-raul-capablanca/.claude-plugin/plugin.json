@@ -1,7 +1,7 @@
 {
   "name": "chess-coach-jose-raul-capablanca",
   "displayName": "Capablanca (AI): chess coach from Capablanca's own books",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI persona inspired by the public-domain works of José Raúl Capablanca (1888–1942), teaching chess in the user's language: endings, middle-game, openings, game analysis and study plans.",
   "author": {
     "name": "KungfuKit"

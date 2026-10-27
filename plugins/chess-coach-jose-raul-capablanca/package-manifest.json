@@ -1,6 +1,6 @@
 {
   "schema_version": "repository-package-2.0",
-  "package_version": "1.0.0",
+  "package_version": "1.0.1",
   "source_package_id": "bot_package_e1e73fe060844b64",
   "source_build_key": "3b7eb68a3ed9dd066f457edd0be589f8cdabd8a59c4d9d0722deb5c6eb5bb7c7",
   "reference": "José Raúl Capablanca",
@@ -15,15 +15,15 @@
     "duet"
   ],
   "prepared_at": "2026-10-27T16:16:55.540009+00:00",
-  "repository": "https://github.com/novantir/kungfukit-publico",
+  "repository": "https://github.com/novantir/kungfukit-public",
   "visibility": "public",
   "files": {
     ".claude-plugin/plugin.json": {
-      "sha256": "23f2706eaf3edc801bf3f48815039ca532d6490d1c811267ee9bd8ea5b1bfb6e",
+      "sha256": "2a8ca7506aac3563497aed1357b72aed6b98d1f559b0ddec9efeca97fc1c2bd4",
       "bytes": 401
     },
     ".codex-plugin/plugin.json": {
-      "sha256": "5ea9a9b0ddcd7e156da604ae945dd3968c06c5792f25a77f8d17ef52a7713851",
+      "sha256": "3c72d59198e7fa3ef4499a4ac782c331c1f4b426efa725c1fe981a2426488b13",
       "bytes": 406
     },
     "AGENTS.md": {
@@ -31,20 +31,20 @@
       "bytes": 848
     },
     "README.md": {
-      "sha256": "26f8de39a5c81352001c96cf24174e02665260b1ccccd25fce9d525ff85378a0",
-      "bytes": 5247
+      "sha256": "6899702814344ffed7bb04bebc7929144f4fc095faec117e3e2e50cfd2e65179",
+      "bytes": 5246
     },
     "install/dots.md": {
-      "sha256": "da57dfc356e0bff6fedeacd8186a7efc217ea3509188b15454ce39c1c69fd3be",
-      "bytes": 1651
+      "sha256": "da350d7de995fdcb343c145317b0b19fd530200e6e81889dc2bd458cfea7291f",
+      "bytes": 1650
     },
     "install/duet.md": {
-      "sha256": "7271e1e88e4b49fb74d0f5fb3366b6d423b03b31d49a78ece82a8c5c29169e1c",
-      "bytes": 969
+      "sha256": "a4b31286b980335bc125d4249c1c8c29197afc4e7f0a0e344aecc46a6e7f5caf",
+      "bytes": 968
     },
     "install/grok-bot.md": {
-      "sha256": "546d5d24b9becc30283d6bab7984d612587050f421812297398a464fbc447f36",
-      "bytes": 5661
+      "sha256": "7cdfb62fa51f3d6cf4da47b0d4b2274d3cc4ebdc18a523744db53a533f70b4fa",
+      "bytes": 5659
     },
     "provenance/persona.json": {
       "sha256": "336549b04d97bbfc88be7d370f18a6612f39442528063b57adaf62dfeac5c629",

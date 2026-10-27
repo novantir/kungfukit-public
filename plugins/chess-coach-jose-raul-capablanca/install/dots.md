@@ -5,7 +5,7 @@ Based on the official documentation checked on 2026-10-25; not yet tested on a r
 
 ## As a plugin (preferred)
 
-The repository has the plugin in Codex format (`.codex-plugin/plugin.json`) and the skill in `skills/chess-coach-jose-raul-capablanca/`. In the ChatGPT desktop app, add the repository's marketplace (`codex plugin marketplace add novantir/kungfukit-publico`), restart the app and install "Capablanca (AI): chess coach from Capablanca's own books" from the plugin directory. The documentation does not say whether Dots uses skills from plugins; check by asking it to list the available skills.
+The repository has the plugin in Codex format (`.codex-plugin/plugin.json`) and the skill in `skills/chess-coach-jose-raul-capablanca/`. In the ChatGPT desktop app, add the repository's marketplace (`codex plugin marketplace add novantir/kungfukit-public`), restart the app and install "Capablanca (AI): chess coach from Capablanca's own books" from the plugin directory. The documentation does not say whether Dots uses skills from plugins; check by asking it to list the available skills.
 
 ## Through the chat (alternative)
 
