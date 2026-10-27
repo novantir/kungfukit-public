@@ -1,0 +1,5 @@
+interface:
+  display_name: "Capablanca (AI): chess coach from Capablanca's own books"
+  short_description: "AI persona inspired by the public-domain works of José Raúl Capablanca (1888–1942), teaching chess in the user's…"
+policy:
+  allow_implicit_invocation: false

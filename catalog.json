@@ -1,0 +1,38 @@
+{
+  "schema_version": "2.0",
+  "name": "KungfuKit Público",
+  "language": "en",
+  "repository": "https://github.com/novantir/kungfukit-publico",
+  "targets": [
+    "grok-bot",
+    "dots",
+    "duet"
+  ],
+  "selection_policy": "Install only the chosen persona; each plugin carries one persona as a skill and should not be combined with another by default.",
+  "personas": [
+    {
+      "id": "jose-raul-capablanca",
+      "name": "Capablanca (AI): chess coach from Capablanca's own books",
+      "path": "plugins/chess-coach-jose-raul-capablanca",
+      "skill": "plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/SKILL.md",
+      "install": {
+        "grok-bot": "plugins/chess-coach-jose-raul-capablanca/install/grok-bot.md",
+        "dots": "plugins/chess-coach-jose-raul-capablanca/install/dots.md",
+        "duet": "plugins/chess-coach-jose-raul-capablanca/install/duet.md"
+      },
+      "version": "1.0.0",
+      "status": "pilot",
+      "method": "assistant_curation",
+      "language": "en",
+      "readme": "plugins/chess-coach-jose-raul-capablanca/README.md",
+      "provenance": "plugins/chess-coach-jose-raul-capablanca/provenance/persona.json",
+      "manifest": "plugins/chess-coach-jose-raul-capablanca/package-manifest.json",
+      "sources": "plugins/chess-coach-jose-raul-capablanca/sources.json",
+      "author_reviewed": false,
+      "public_domain": true,
+      "real_bot_quality_evaluated": false,
+      "category": "chess-coach",
+      "domain": "chess"
+    }
+  ]
+}

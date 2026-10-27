@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "language": null,
+  "domain": "chess",
+  "declared_on": null,
+  "source": "Empty template. Fill in only what the player states in the conversation; null means unknown, not zero.",
+  "ratings": [],
+  "main_time_control": null,
+  "experience": null,
+  "goal": null,
+  "next_event": null,
+  "study_hours_per_week": null,
+  "repertoire": {
+    "white": null,
+    "black_vs_e4": null,
+    "black_vs_d4": null
+  },
+  "recent_games": [],
+  "diagnosed_weaknesses": [],
+  "next_questions": [
+    "How long have you been playing, and what is your rating, if you have one?",
+    "Which time control do you play most, and how much time can you study per week?",
+    "What is your chess goal right now?"
+  ]
+}
