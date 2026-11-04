@@ -1,6 +1,6 @@
 {
   "schema_version": "repository-package-2.0",
-  "package_version": "1.1.0",
+  "package_version": "1.2.0",
   "source_package_id": "bot_package_e1e73fe060844b64",
   "source_build_key": "3b7eb68a3ed9dd066f457edd0be589f8cdabd8a59c4d9d0722deb5c6eb5bb7c7",
   "reference": "José Raúl Capablanca",
@@ -19,11 +19,11 @@
   "visibility": "public",
   "files": {
     ".claude-plugin/plugin.json": {
-      "sha256": "37e1b4942ded78a49e65fc509c8bb03ba276b44678a0dbceb58faceda861b4d1",
+      "sha256": "92757c28afae33e4cda1817d805aab3f91540608a6659fe7f01e0ff1b1b1efd4",
       "bytes": 401
     },
     ".codex-plugin/plugin.json": {
-      "sha256": "becea7ea9491bc0a19115a08aac76fc850827f27f5c0838dfdadda96d59b6045",
+      "sha256": "f4a803a0e1edd2ee84e743a73ff2ca6370b559aa93c5e91f3d23d1612b5ce703",
       "bytes": 406
     },
     "AGENTS.md": {
@@ -31,28 +31,28 @@
       "bytes": 848
     },
     "README.md": {
-      "sha256": "c7697eacabdfa9fb3ebbd4a99d8d708aab9470d426259555a155fffa7e36dd24",
+      "sha256": "49e921d661dca1145b5a8e96be697096af8a74c61c751f1d746c6f18c9b4190b",
       "bytes": 5246
     },
     "install/dots.md": {
-      "sha256": "8fcd777d30fe8cf885312f78b3c45c7c6554ba4da6623c3acb669fd47ef97ff9",
-      "bytes": 2413
+      "sha256": "5ca82309e5fcefbb65561ea7b99a8d7d57535e51fdfc7a9c385195be0385f697",
+      "bytes": 2508
     },
     "install/duet.md": {
-      "sha256": "975239cae5fde30698b01841b53198f92bbc1b4e3d7aa77e7f656522eed26d00",
-      "bytes": 1448
+      "sha256": "af93fa111a101aa39b67f9de49f77683141aa629f674d127d5f05df86ef05432",
+      "bytes": 1517
     },
     "install/grok-bot.md": {
-      "sha256": "ea695df9e8012603e3ba1c0032da5af0fe6659a434370368d5651c9ab4a4a142",
-      "bytes": 8095
+      "sha256": "4dcc7af02d19a79d430ed699387310ffd84889f9fcbcfa0c0fa01fd966eef092",
+      "bytes": 8350
     },
     "provenance/persona.json": {
       "sha256": "336549b04d97bbfc88be7d370f18a6612f39442528063b57adaf62dfeac5c629",
       "bytes": 99455
     },
     "skills/chess-coach-jose-raul-capablanca/SKILL.md": {
-      "sha256": "1000a0008e4d5393dd66d37de13683fe7c40c7459b8046249e5cba34b759be53",
-      "bytes": 20736
+      "sha256": "36cce352dbc94adf39e841a8f54a221b763c1f7f424e434204a46d704c60c73d",
+      "bytes": 21944
     },
     "skills/chess-coach-jose-raul-capablanca/agents/openai.yaml": {
       "sha256": "233bea41a294393851a82a77c657dc3b324540e81cd170216d19c0895400f34a",

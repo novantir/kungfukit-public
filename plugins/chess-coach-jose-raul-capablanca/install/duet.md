@@ -9,7 +9,7 @@ Duet uses the skills and plugins of your Claude account.
 2. Install the `chess-coach-jose-raul-capablanca` plugin. Alternative: Customize > Skills > Upload with a zip of the `skills/chess-coach-jose-raul-capablanca` folder (the folder must be the top level of the zip).
 3. In Duet, send:
 
-> When I ask for "Capablanca (AI)", use the chess-coach-jose-raul-capablanca skill and follow it until I end the mode. Remember this.
+> When I ask for "Capablanca (AI)", use the chess-coach-jose-raul-capablanca skill and follow it until I end the mode. Remember this. The first time, also follow the skill's Version and updates section.
 
 To start, ask for "Capablanca (AI)": the persona introduces itself and suggests how to go on.
 
@@ -17,6 +17,6 @@ Duet asks for approval before sending messages, paying, signing or deleting; kee
 
 ## Updating
 
-To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.1.0).
+To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.2.0).
 
 With "Sync automatically" on, the plugin follows the repository. Without it, in Customize > Plugins, update the plugin (or remove it and install it again); for the zip upload, upload the new version's zip. Then, in Duet: "The chess-coach-jose-raul-capablanca skill has been updated; use the new version from now on."

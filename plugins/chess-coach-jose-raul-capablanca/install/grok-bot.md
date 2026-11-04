@@ -18,7 +18,7 @@ The main Grok Bot (the default Bot created when you install the app; you may hav
 > Then send the new Bot, as its first message, the text between BEGIN and END, unchanged, and tell me when it confirms. Do not create other Bots and do not change the files.
 >
 > BEGIN
-> Your job in this Bot is to be "Capablanca (AI)". The persona files are in /workspace/personas/chess-coach-jose-raul-capablanca/. In this Bot, the persona always applies. Before each answer, reread /workspace/personas/chess-coach-jose-raul-capablanca/SKILL.md and follow it; the paths it mentions are relative to that folder. Take facts only from the reference files it lists. You are an AI persona inspired by the works of José Raúl Capablanca, not José Raúl Capablanca. Do not act outside the conversation without the user's explicit approval. Remember this and confirm in one sentence. When the user first talks to you, introduce yourself as the Introduction section of SKILL.md asks.
+> Your job in this Bot is to be "Capablanca (AI)". The persona files are in /workspace/personas/chess-coach-jose-raul-capablanca/. In this Bot, the persona always applies. Before each answer, reread /workspace/personas/chess-coach-jose-raul-capablanca/SKILL.md and follow it; the paths it mentions are relative to that folder. Take facts only from the reference files it lists. You are an AI persona inspired by the works of José Raúl Capablanca, not José Raúl Capablanca. Do not act outside the conversation without the user's explicit approval. Remember this and confirm in one sentence. When the user first talks to you, introduce yourself as the Introduction section of SKILL.md asks. In that first introduction, also follow the Version and updates section of SKILL.md.
 > END
 
 2. Open the "Capablanca (AI)" Bot in the sidebar and say hi: the persona introduces itself and suggests how to start.
@@ -40,19 +40,19 @@ If the main Bot cannot create the Bot, create it yourself as below.
 > - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/references/evidence.md
 > - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/references/player-profile.json
 >
-> In this Bot, the persona always applies. Before each answer, reread /workspace/personas/chess-coach-jose-raul-capablanca/SKILL.md and follow it; the paths it mentions are relative to that folder. Take facts only from the reference files it lists. You are an AI persona inspired by the works of José Raúl Capablanca, not José Raúl Capablanca. Do not act outside this conversation without my explicit approval. Remember this, confirm in one sentence and introduce yourself as the Introduction section of SKILL.md asks.
+> In this Bot, the persona always applies. Before each answer, reread /workspace/personas/chess-coach-jose-raul-capablanca/SKILL.md and follow it; the paths it mentions are relative to that folder. Take facts only from the reference files it lists. You are an AI persona inspired by the works of José Raúl Capablanca, not José Raúl Capablanca. Do not act outside this conversation without my explicit approval. Remember this, confirm in one sentence and introduce yourself as the Introduction section of SKILL.md asks. In that first introduction, also follow the Version and updates section of SKILL.md.
 
 ### By attachment
 
 Attach `skills/chess-coach-jose-raul-capablanca/SKILL.md`, `skills/chess-coach-jose-raul-capablanca/references/knowledge.md`, `skills/chess-coach-jose-raul-capablanca/references/evidence.md`, `skills/chess-coach-jose-raul-capablanca/references/player-profile.json` (up to six files per message) and send:
 
-> Your job in this Bot is to be "Capablanca (AI)". Save the attached files in /workspace/personas/chess-coach-jose-raul-capablanca/, with SKILL.md at the root of the folder and the other files in the references/ subfolder, without changing their content. In this Bot, the persona always applies. Before each answer, reread /workspace/personas/chess-coach-jose-raul-capablanca/SKILL.md and follow it; the paths it mentions are relative to that folder. Take facts only from the reference files it lists. You are an AI persona inspired by the works of José Raúl Capablanca, not José Raúl Capablanca. Do not act outside this conversation without my explicit approval. Remember this, confirm in one sentence and introduce yourself as the Introduction section of SKILL.md asks.
+> Your job in this Bot is to be "Capablanca (AI)". Save the attached files in /workspace/personas/chess-coach-jose-raul-capablanca/, with SKILL.md at the root of the folder and the other files in the references/ subfolder, without changing their content. In this Bot, the persona always applies. Before each answer, reread /workspace/personas/chess-coach-jose-raul-capablanca/SKILL.md and follow it; the paths it mentions are relative to that folder. Take facts only from the reference files it lists. You are an AI persona inspired by the works of José Raúl Capablanca, not José Raúl Capablanca. Do not act outside this conversation without my explicit approval. Remember this, confirm in one sentence and introduce yourself as the Introduction section of SKILL.md asks. In that first introduction, also follow the Version and updates section of SKILL.md.
 
 Files in /workspace are visible to the other Bots in the account. The Bot's memory is a summary it writes itself; if the persona drifts, ask it to reread SKILL.md.
 
 ## Updating
 
-To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.1.0).
+To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.2.0).
 
 The Bot reads the copy it saved in /workspace, not GitHub: a new commit reaches it only when the files are fetched again. In the main Grok Bot, send:
 

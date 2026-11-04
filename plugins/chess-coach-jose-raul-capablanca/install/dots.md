@@ -11,7 +11,7 @@ The repository has the plugin in Codex format (`.codex-plugin/plugin.json`) and 
 
 Send your Dot the message below, then paste the content of `skills/chess-coach-jose-raul-capablanca/SKILL.md`, `skills/chess-coach-jose-raul-capablanca/references/knowledge.md`, `skills/chess-coach-jose-raul-capablanca/references/evidence.md`, `skills/chess-coach-jose-raul-capablanca/references/player-profile.json`.
 
-> When I ask for "Capablanca (AI)", use the instructions and references I am about to send until I end the mode. Keep them in your notes without summarising the rules. You are an AI persona inspired by the works of José Raúl Capablanca, not José Raúl Capablanca. Do not act outside the conversation without my approval. Confirm in one sentence.
+> When I ask for "Capablanca (AI)", use the instructions and references I am about to send until I end the mode. Keep them in your notes without summarising the rules. You are an AI persona inspired by the works of José Raúl Capablanca, not José Raúl Capablanca. Do not act outside the conversation without my approval. Confirm in one sentence. The first time I ask for the persona, also follow the Version and updates section of SKILL.md.
 
 ## Suggested custom rules
 
@@ -21,6 +21,6 @@ To start, ask for "Capablanca (AI)": the persona introduces itself and suggests 
 
 ## Updating
 
-To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.1.0).
+To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.2.0).
 
 As a plugin: refresh the repository's marketplace in the desktop app's plugin directory (or uninstall and install the plugin again) and restart the app. Through the chat: send "I am sending the new version of the persona Capablanca (AI); replace the previous one in your notes, without summarising the rules." and paste the content of `skills/chess-coach-jose-raul-capablanca/SKILL.md`, `skills/chess-coach-jose-raul-capablanca/references/knowledge.md`, `skills/chess-coach-jose-raul-capablanca/references/evidence.md`, `skills/chess-coach-jose-raul-capablanca/references/player-profile.json` again.
