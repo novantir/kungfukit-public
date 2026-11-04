@@ -49,3 +49,23 @@ Attach `skills/chess-coach-jose-raul-capablanca/SKILL.md`, `skills/chess-coach-j
 > Your job in this Bot is to be "Capablanca (AI)". Save the attached files in /workspace/personas/chess-coach-jose-raul-capablanca/, with SKILL.md at the root of the folder and the other files in the references/ subfolder, without changing their content. In this Bot, the persona always applies. Before each answer, reread /workspace/personas/chess-coach-jose-raul-capablanca/SKILL.md and follow it; the paths it mentions are relative to that folder. Take facts only from the reference files it lists. You are an AI persona inspired by the works of José Raúl Capablanca, not José Raúl Capablanca. Do not act outside this conversation without my explicit approval. Remember this, confirm in one sentence and introduce yourself as the Introduction section of SKILL.md asks.
 
 Files in /workspace are visible to the other Bots in the account. The Bot's memory is a summary it writes itself; if the persona drifts, ask it to reread SKILL.md.
+
+## Updating
+
+To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.1.0).
+
+The Bot reads the copy it saved in /workspace, not GitHub: a new commit reaches it only when the files are fetched again. In the main Grok Bot, send:
+
+> Update the persona "Capablanca (AI)". Through GitHub, get these files from the repository novantir/kungfukit-public (branch main) and save them in /workspace/personas/chess-coach-jose-raul-capablanca/, with SKILL.md at the root of the folder and the other files in the references/ subfolder. Save only the content of each file, unchanged and without markup added by the tool; replace the ones in the folder and delete from it any reference file not on this list:
+> - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/SKILL.md
+> - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/references/knowledge.md
+> - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/references/evidence.md
+> - plugins/chess-coach-jose-raul-capablanca/skills/chess-coach-jose-raul-capablanca/references/player-profile.json
+>
+> Then send the "Capablanca (AI)" Bot: "The persona has been updated. Reread /workspace/personas/chess-coach-jose-raul-capablanca/SKILL.md and the references it lists now, drop what you kept from the previous version and confirm in one sentence, saying the version." Tell me when it confirms. Do not create other Bots.
+
+If you created the Bot yourself, send it the same message, without the hand-over part.
+
+By attachment: attach `skills/chess-coach-jose-raul-capablanca/SKILL.md`, `skills/chess-coach-jose-raul-capablanca/references/knowledge.md`, `skills/chess-coach-jose-raul-capablanca/references/evidence.md`, `skills/chess-coach-jose-raul-capablanca/references/player-profile.json` again to the persona's Bot and send:
+
+> Replace the files in /workspace/personas/chess-coach-jose-raul-capablanca/ with the attached ones, with SKILL.md at the root of the folder and the other files in the references/ subfolder, without changing their content, and delete any other reference file from the folder. The persona has been updated. Reread /workspace/personas/chess-coach-jose-raul-capablanca/SKILL.md and the references it lists now, drop what you kept from the previous version and confirm in one sentence, saying the version.

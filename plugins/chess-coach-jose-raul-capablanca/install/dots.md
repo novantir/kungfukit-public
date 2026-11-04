@@ -18,3 +18,9 @@ Send your Dot the message below, then paste the content of `skills/chess-coach-j
 In Settings > Personalization > Permissions > Custom rules: "ask first" for sending messages and publishing; "hand over to me" for purchases and deletions.
 
 To start, ask for "Capablanca (AI)": the persona introduces itself and suggests how to go on.
+
+## Updating
+
+To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.1.0).
+
+As a plugin: refresh the repository's marketplace in the desktop app's plugin directory (or uninstall and install the plugin again) and restart the app. Through the chat: send "I am sending the new version of the persona Capablanca (AI); replace the previous one in your notes, without summarising the rules." and paste the content of `skills/chess-coach-jose-raul-capablanca/SKILL.md`, `skills/chess-coach-jose-raul-capablanca/references/knowledge.md`, `skills/chess-coach-jose-raul-capablanca/references/evidence.md`, `skills/chess-coach-jose-raul-capablanca/references/player-profile.json` again.

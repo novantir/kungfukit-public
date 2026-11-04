@@ -14,3 +14,9 @@ Duet uses the skills and plugins of your Claude account.
 To start, ask for "Capablanca (AI)": the persona introduces itself and suggests how to go on.
 
 Duet asks for approval before sending messages, paying, signing or deleting; keep it that way.
+
+## Updating
+
+To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.1.0).
+
+With "Sync automatically" on, the plugin follows the repository. Without it, in Customize > Plugins, update the plugin (or remove it and install it again); for the zip upload, upload the new version's zip. Then, in Duet: "The chess-coach-jose-raul-capablanca skill has been updated; use the new version from now on."
