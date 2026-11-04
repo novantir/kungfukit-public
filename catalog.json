@@ -20,7 +20,8 @@
         "dots": "plugins/chess-coach-jose-raul-capablanca/install/dots.md",
         "duet": "plugins/chess-coach-jose-raul-capablanca/install/duet.md"
       },
-      "version": "1.3.0",
+      "template": "plugins/chess-coach-jose-raul-capablanca/install/grok-template.md",
+      "version": "1.4.0",
       "status": "pilot",
       "method": "assistant_curation",
       "language": "en",

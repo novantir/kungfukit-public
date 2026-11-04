@@ -25,6 +25,8 @@ Each plugin has guides in `install/`. On Grok Bot, reading through GitHub and cr
 - **Dots (ChatGPT)**: add the repository's marketplace in the desktop app (`codex plugin marketplace add novantir/kungfukit-public`) or use the message in `install/dots.md`.
 - **Other bots with an instructions field**: paste the `SKILL.md` and attach the files in `references/`.
 
+To publish a persona on the Grok Bot marketplace, follow its `install/grok-template.md`: a template carries the Bot's description, memories and skills, not files, so the guide puts a standing rule in the description that fetches the files from this repository. Only this collection's personas may be published: they rest on public-domain works and name themselves as AI.
+
 To update a persona you already installed, see the Updating section of its install guide: Grok Bot and conversations with the files pasted keep the copy of the version they were installed with, and only Duet with "Sync automatically" and reading through GitHub follow the repository. Each SKILL.md states its version, and the [changelog](CHANGELOG.md) says which personas changed in each one.
 
 Install only the persona you want. Skills are called by name; do not combine personas in the same conversation by accident.
