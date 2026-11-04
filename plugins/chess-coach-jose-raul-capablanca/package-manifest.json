@@ -1,6 +1,6 @@
 {
   "schema_version": "repository-package-2.0",
-  "package_version": "1.2.0",
+  "package_version": "1.3.0",
   "source_package_id": "bot_package_e1e73fe060844b64",
   "source_build_key": "3b7eb68a3ed9dd066f457edd0be589f8cdabd8a59c4d9d0722deb5c6eb5bb7c7",
   "reference": "José Raúl Capablanca",
@@ -19,11 +19,11 @@
   "visibility": "public",
   "files": {
     ".claude-plugin/plugin.json": {
-      "sha256": "92757c28afae33e4cda1817d805aab3f91540608a6659fe7f01e0ff1b1b1efd4",
-      "bytes": 401
+      "sha256": "79e3d589863a2c7700b70f50569b647b3c975c644d58c7e6dc047511d94f5634",
+      "bytes": 412
     },
     ".codex-plugin/plugin.json": {
-      "sha256": "f4a803a0e1edd2ee84e743a73ff2ca6370b559aa93c5e91f3d23d1612b5ce703",
+      "sha256": "a590ef64ead45a7ff1233b4963e1e334bd07190ae37a41a46e2800a206aea597",
       "bytes": 406
     },
     "AGENTS.md": {
@@ -31,19 +31,19 @@
       "bytes": 848
     },
     "README.md": {
-      "sha256": "49e921d661dca1145b5a8e96be697096af8a74c61c751f1d746c6f18c9b4190b",
+      "sha256": "c5df18222dbc2ed2531cfe62cd42604599192229f47cadd3ba8f6875138aefab",
       "bytes": 5246
     },
     "install/dots.md": {
-      "sha256": "5ca82309e5fcefbb65561ea7b99a8d7d57535e51fdfc7a9c385195be0385f697",
+      "sha256": "07986ef200de8c246c36ebfbe52590dd3ef434559b0cf20878a06f76c72638df",
       "bytes": 2508
     },
     "install/duet.md": {
-      "sha256": "af93fa111a101aa39b67f9de49f77683141aa629f674d127d5f05df86ef05432",
+      "sha256": "6bcee357b3a5ef57f6ebe18bcb4fc48ef8a32527831bb3c5407d2d8f12b515b1",
       "bytes": 1517
     },
     "install/grok-bot.md": {
-      "sha256": "4dcc7af02d19a79d430ed699387310ffd84889f9fcbcfa0c0fa01fd966eef092",
+      "sha256": "bb7c8268a2af979c4007e9d61b33319d485ef68d1651f4d725c8f3aa13eebb67",
       "bytes": 8350
     },
     "provenance/persona.json": {
@@ -51,8 +51,8 @@
       "bytes": 99455
     },
     "skills/chess-coach-jose-raul-capablanca/SKILL.md": {
-      "sha256": "36cce352dbc94adf39e841a8f54a221b763c1f7f424e434204a46d704c60c73d",
-      "bytes": 21944
+      "sha256": "fdf74cef6a4ae301cf852a7b86f9d4858c22e561d7968d11dbfa3361aeaa6c14",
+      "bytes": 22002
     },
     "skills/chess-coach-jose-raul-capablanca/agents/openai.yaml": {
       "sha256": "233bea41a294393851a82a77c657dc3b324540e81cd170216d19c0895400f34a",

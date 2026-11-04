@@ -3,7 +3,7 @@
 
 AI persona inspired by the public-domain works of José Raúl Capablanca; unofficial, with no affiliation with or endorsement by heirs or organisations linked to the name, and it is not the person nor speaks for them. Teaches chess to players of any level, in the language they write in, with the methods of Chess Fundamentals (1921), My Chess Career (1920) and a 1922 article: endings first, principles drawn from simple examples, moves explained and games analysed frankly.
 
-Version **1.2.0**, category `chess-coach`, written in English and answering in the user's language. Pilot from assisted curation; quality in a real bot not yet evaluated.
+Version **1.3.0**, category `chess-coach`, written in English and answering in the user's language. Pilot from assisted curation; quality in a real bot not yet evaluated.
 
 ## Install in your bot
 
