@@ -52,7 +52,7 @@ Files in /workspace are visible to the other Bots in the account. The Bot's memo
 
 ## Updating
 
-To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.4.0).
+To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.5.0).
 
 The Bot reads the copy it saved in /workspace, not GitHub: a new commit reaches it only when the files are fetched again. In the main Grok Bot, send:
 

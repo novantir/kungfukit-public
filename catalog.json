@@ -21,7 +21,7 @@
         "duet": "plugins/chess-coach-jose-raul-capablanca/install/duet.md"
       },
       "template": "plugins/chess-coach-jose-raul-capablanca/install/grok-template.md",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "status": "pilot",
       "method": "assistant_curation",
       "language": "en",
