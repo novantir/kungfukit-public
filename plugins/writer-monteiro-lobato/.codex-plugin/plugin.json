@@ -1,0 +1,9 @@
+{
+  "name": "writer-monteiro-lobato",
+  "version": "1.6.0",
+  "description": "Persona de IA inspirada nas obras em domínio público de Monteiro Lobato (1882–1948), publicadas até 1930: conta e inventa histórias no estilo dele para crianças e adultos, conversa sobre o Brasil…",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Monteiro Lobato (IA): histórias, Brasil e leitura"
+  }
+}

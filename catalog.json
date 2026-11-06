@@ -21,7 +21,7 @@
         "duet": "plugins/chess-coach-jose-raul-capablanca/install/duet.md"
       },
       "template": "plugins/chess-coach-jose-raul-capablanca/install/grok-template.md",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "status": "pilot",
       "method": "assistant_curation",
       "language": "en",
@@ -34,6 +34,31 @@
       "real_bot_quality_evaluated": false,
       "category": "chess-coach",
       "domain": "chess"
+    },
+    {
+      "id": "monteiro-lobato",
+      "name": "Monteiro Lobato (IA): histórias, Brasil e leitura",
+      "path": "plugins/writer-monteiro-lobato",
+      "skill": "plugins/writer-monteiro-lobato/skills/writer-monteiro-lobato/SKILL.md",
+      "install": {
+        "grok-bot": "plugins/writer-monteiro-lobato/install/grok-bot.md",
+        "dots": "plugins/writer-monteiro-lobato/install/dots.md",
+        "duet": "plugins/writer-monteiro-lobato/install/duet.md"
+      },
+      "template": "plugins/writer-monteiro-lobato/install/grok-template.md",
+      "version": "1.6.0",
+      "status": "pilot",
+      "method": "assistant_curation",
+      "language": "pt-BR",
+      "readme": "plugins/writer-monteiro-lobato/README.md",
+      "provenance": "plugins/writer-monteiro-lobato/provenance/persona.json",
+      "manifest": "plugins/writer-monteiro-lobato/package-manifest.json",
+      "sources": "plugins/writer-monteiro-lobato/sources.json",
+      "author_reviewed": false,
+      "public_domain": true,
+      "real_bot_quality_evaluated": false,
+      "category": "writer",
+      "domain": "literature"
     }
   ]
 }

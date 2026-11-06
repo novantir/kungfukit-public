@@ -1,0 +1,102 @@
+{
+  "schema_version": "repository-package-2.0",
+  "package_version": "1.6.0",
+  "source_package_id": "bot_package_33e04ad6414b45a7",
+  "source_build_key": "8ca63f1043f07c298fd5a52ecc43f092040bccf31b45d669a6667966ab775711",
+  "reference": "Monteiro Lobato",
+  "method": "assistant_curation",
+  "category": "writer",
+  "domain": "literature",
+  "directory": "plugins/writer-monteiro-lobato",
+  "skill": "skills/writer-monteiro-lobato/SKILL.md",
+  "targets": [
+    "grok-bot",
+    "dots",
+    "duet"
+  ],
+  "prepared_at": "2026-11-06T01:04:52.820453+00:00",
+  "repository": "https://github.com/novantir/kungfukit-public",
+  "visibility": "public",
+  "files": {
+    ".claude-plugin/plugin.json": {
+      "sha256": "34ad1268bd5713819e73d1da4dcb23b10021b251d6e240566b76b295482fb11d",
+      "bytes": 412
+    },
+    ".codex-plugin/plugin.json": {
+      "sha256": "df22f2d5f201d48822c870df386560a62c1ffa2fd8cca5792160c4cf549ba4e0",
+      "bytes": 406
+    },
+    "AGENTS.md": {
+      "sha256": "323f130f1aedd254679ae4ed1af0422c82e6dfd32f5f52a3af07a6abb0d8b597",
+      "bytes": 819
+    },
+    "README.md": {
+      "sha256": "913a2ad676bcdd7be35b4c167dd1f7e7dcfa61aea6795f28e1a751bf7426f72f",
+      "bytes": 5092
+    },
+    "install/dots.md": {
+      "sha256": "e2a139a68c3bf8c47cb95ea21c708f5d742a9cdf952f641ea6cfdeb09a18a3be",
+      "bytes": 2274
+    },
+    "install/duet.md": {
+      "sha256": "dda6eef8fbf9850ebc353bd490d19f0da8612f5f3da7c44efc4482b26141c83c",
+      "bytes": 1471
+    },
+    "install/grok-bot.md": {
+      "sha256": "d347ab6f9c9b57ac3f0460b38b5726153845973c8bad8c14b4b7e21fc3f2d2af",
+      "bytes": 7534
+    },
+    "install/grok-template.md": {
+      "sha256": "625eb7f0ed7ea2c4daa226731b7abb7061f1557aa12d27fdbefe8b394c90344d",
+      "bytes": 3496
+    },
+    "provenance/persona.json": {
+      "sha256": "a144f6d52049824f70c858e43678dc10fb9fa71221b794bb892fd297286f5067",
+      "bytes": 245019
+    },
+    "skills/writer-monteiro-lobato/SKILL.md": {
+      "sha256": "8f882866fcf0545528df4556227a707a60d33db7756358d3f99fe4347472c9c1",
+      "bytes": 42868
+    },
+    "skills/writer-monteiro-lobato/agents/openai.yaml": {
+      "sha256": "a4780be5586185e4be2862a0d2a6c46ced87cdfde56df84ad14aed3527e16fed",
+      "bytes": 268
+    },
+    "skills/writer-monteiro-lobato/references/evidence.md": {
+      "sha256": "e6155274bef510f27671936d0de987baa240cde84eb581745abab6791e4be7e0",
+      "bytes": 30437
+    },
+    "skills/writer-monteiro-lobato/references/knowledge.md": {
+      "sha256": "51460fcc52ab0e36d0c32922359c170cbe5d6ccc08b5a75c66aec01adde91fad",
+      "bytes": 109869
+    },
+    "sources.json": {
+      "sha256": "42f8b7a1daca734f40dd5f70fc734c09b39affa0cd1dab1c36a3c3b8483743c3",
+      "bytes": 54606
+    }
+  },
+  "excluded": [
+    "full_corpus",
+    "holdout",
+    "development_set",
+    "evaluation_cases",
+    "sqlite_databases",
+    "raw_files",
+    "logs",
+    "credentials"
+  ],
+  "validation": {
+    "literal_evidence_checked": true,
+    "source_attribution_reviewed": true,
+    "two_independent_works_per_rule": true,
+    "public_domain_terms_checked": true,
+    "max_quoted_words_per_quote": 40,
+    "holdout_reserved": 6,
+    "holdout_read": false,
+    "development_reserved": 8,
+    "real_bot_quality_evaluated": false,
+    "install_tested": {},
+    "bot_quality_tested": false,
+    "bot_docs_checked_on": "2026-10-25"
+  }
+}

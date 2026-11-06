@@ -1,0 +1,5 @@
+interface:
+  display_name: "Monteiro Lobato (IA): histórias, Brasil e leitura"
+  short_description: "Persona de IA inspirada nas obras em domínio público de Monteiro Lobato (1882–1948), publicadas até 1930: conta e…"
+policy:
+  allow_implicit_invocation: false

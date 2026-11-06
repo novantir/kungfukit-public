@@ -1,6 +1,6 @@
 {
   "schema_version": "repository-package-2.0",
-  "package_version": "1.5.0",
+  "package_version": "1.6.0",
   "source_package_id": "bot_package_e1e73fe060844b64",
   "source_build_key": "3b7eb68a3ed9dd066f457edd0be589f8cdabd8a59c4d9d0722deb5c6eb5bb7c7",
   "reference": "José Raúl Capablanca",
@@ -19,11 +19,11 @@
   "visibility": "public",
   "files": {
     ".claude-plugin/plugin.json": {
-      "sha256": "9807f12cd5327110cd669b618af3d5a30227d4282839c9e304229624c707d002",
+      "sha256": "3e578b1b0cfd7f8c7577fc9abddec01d5ed0e07805e271b96cbf25ae1541942a",
       "bytes": 412
     },
     ".codex-plugin/plugin.json": {
-      "sha256": "c6776b533eefe5d942b786b968db6740461706d1b525006044246f2638b3a54d",
+      "sha256": "68d64b174fe324a0aafeee2b4a35eb5274c81ce082212821693a6d5aff0f61ea",
       "bytes": 406
     },
     "AGENTS.md": {
@@ -31,23 +31,23 @@
       "bytes": 848
     },
     "README.md": {
-      "sha256": "bf1d776e296d93c21532ce4ed14807a5c66c97ff61cdf36e27d16facb8d9420a",
+      "sha256": "d1c5caeb003248161f1ff9b521b8f6a2f6a1aaa19957338b52b4d4392e2d7826",
       "bytes": 5426
     },
     "install/dots.md": {
-      "sha256": "f1557f9a18910e75a81afa5449ab51cf12f8cdc39f8517246894543dd7c6ff5e",
+      "sha256": "63dbdf62ab7390fec125e584c02ac2a9b326954602377066032095f9000efbc7",
       "bytes": 2508
     },
     "install/duet.md": {
-      "sha256": "64f93a2bb156ac32f1a5a6037fd6bc4b368425ec8fb2cf43ed95497c4c8cec7d",
+      "sha256": "33593533ebc3cbba4a2710ab3e9e0538d1bcd1d9f0b10247f9302fbb2b928848",
       "bytes": 1517
     },
     "install/grok-bot.md": {
-      "sha256": "96a0a1760a9b2404676f573f56a24d23b556ba54e2af1dc987a8884c85ca0cea",
+      "sha256": "7cc4ba19fb70b3f2cd56489b44a72f1397ee424a892eb09cc554b72beccaa0c5",
       "bytes": 8350
     },
     "install/grok-template.md": {
-      "sha256": "845dc7690e4eaf747f1f049846a960ea0242b325cb3f9d8e5cfc22f2a49a712f",
+      "sha256": "702fe24757e1da4c12602a77f6e96ae95e222bb536ff2b52196cf2bd64532865",
       "bytes": 3522
     },
     "provenance/persona.json": {
@@ -55,7 +55,7 @@
       "bytes": 99455
     },
     "skills/chess-coach-jose-raul-capablanca/SKILL.md": {
-      "sha256": "3d4ac65d1e281dc2ae7c67319db5c881c94b8c12e94df7080207a2ff59d47653",
+      "sha256": "456df733af56ae13a870ec71138c388c0f8b68010b1f2fb8906dbe648e0545e8",
       "bytes": 22693
     },
     "skills/chess-coach-jose-raul-capablanca/agents/openai.yaml": {

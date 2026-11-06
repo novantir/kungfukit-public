@@ -17,6 +17,6 @@ Duet asks for approval before sending messages, paying, signing or deleting; kee
 
 ## Updating
 
-To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.5.0).
+To know whether it needs updating, ask the persona which version it has and compare it with the version in the plugin's README (this one is 1.6.0).
 
 With "Sync automatically" on, the plugin follows the repository. Without it, in Customize > Plugins, update the plugin (or remove it and install it again); for the zip upload, upload the new version's zip. Then, in Duet: "The chess-coach-jose-raul-capablanca skill has been updated; use the new version from now on."

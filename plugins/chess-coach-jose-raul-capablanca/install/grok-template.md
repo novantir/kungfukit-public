@@ -27,7 +27,7 @@ It has 823 characters; on 2026-11-04, 688 fit without a cut and the limit is not
 
 ## 4. Test the link
 
-Open the link, click "Add to Grok Bot" and, in the new Bot, send just "hi" and then "what is your version", without asking it to read anything. It must introduce itself as "Capablanca (AI)" and say version 1.5.0. If it answers generically, do not share the link: use "Delete template" in the share icon.
+Open the link, click "Add to Grok Bot" and, in the new Bot, send just "hi" and then "what is your version", without asking it to read anything. It must introduce itself as "Capablanca (AI)" and say version 1.6.0. If it answers generically, do not share the link: use "Delete template" in the share icon.
 
 ## New versions
 

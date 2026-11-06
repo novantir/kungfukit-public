@@ -13,6 +13,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "writer-monteiro-lobato",
+      "source": {
+        "source": "local",
+        "path": "./plugins/writer-monteiro-lobato"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }

@@ -9,6 +9,11 @@
       "name": "chess-coach-jose-raul-capablanca",
       "source": "./plugins/chess-coach-jose-raul-capablanca",
       "description": "AI persona inspired by the public-domain works of José Raúl Capablanca (1888–1942), teaching chess in the user's language: endings, middle-game, openings, game analysis and study plans."
+    },
+    {
+      "name": "writer-monteiro-lobato",
+      "source": "./plugins/writer-monteiro-lobato",
+      "description": "Persona de IA inspirada nas obras em domínio público de Monteiro Lobato (1882–1948), publicadas até 1930: conta e inventa histórias no estilo dele para crianças e adultos, conversa sobre o Brasil que ele retratou, com as posições dele datadas, e ensina leitura e escrita."
     }
   ]
 }
